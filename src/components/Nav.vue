@@ -109,33 +109,33 @@
               KAYONZA
             </router-link>
 
-            <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
-                RWAMAGANA
-            </a>
+            <router-link  :to="{ name: 'rwamagana'}" class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+                RWAMAGANA 
+            </router-link>
 
-            <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+            <router-link  :to="{ name: 'bugesera'}" class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
                 BUGESERA
-            </a>
+            </router-link>
 
-            <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+            <router-link  :to="{ name: 'nyagatare'}" class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
                 NYAGATARE
-            </a>
+            </router-link>
 
-            <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+            <router-link  :to="{ name: 'kirehe'}" class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
                KIREHE
-            </a>
+            </router-link>
 
-            <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+            <router-link  :to="{ name: 'ngoma'}" class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
                NGOMA
-            </a>
+            </router-link>
 
-            <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+            <router-link  :to="{ name: 'gatsibo'}" class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
                GATSIBO
-            </a>
+            </router-link>
 
-            <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+            <router-link  :to="{ name: 'ngoma'}" class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
               BUTARE
-            </a>
+            </router-link>
     </div>
 
 </div>
