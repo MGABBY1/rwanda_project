@@ -2,10 +2,7 @@
     <div class="flex items-center justify-center">
         <div class="flex items-center justify-center gap-8 flex-col w-4/5">
             <Nav class=""></Nav>
-            
-           
             <img src="..//assets/convetion1.jpg" alt="" class="w-full h-96 object-cover">
-          
 
             <!--<marquee  behavior="slide" direction="right and left" scrollamount="15">
             <img src="../assets/Kigali-Arena.jpg" alt="" class="w-full h-96 object-cover"> 

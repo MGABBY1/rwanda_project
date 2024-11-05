@@ -1,7 +1,7 @@
 <template>
     <div class="flex items-center justify-center gap-8 flex-col w-full">
         <div class="flex w-full items-center gap-2">
-            <img src="../assets/Rlogo.svg" class="h-36 w-36 mt-5" >
+            <img src="../assets/Rlogo.svg" class="h-36 w-36 mt-5 motion-safe:hover:-translate-x-0.5 motion-safe:transition">
 
             <div class="mt-2 w-1/2">
                 <p><b> REPUBLIC OF RWANDA</b></p>
@@ -146,21 +146,25 @@
 
                     <div class="invisible absolute z-50 flex w-full flex-col bg-gray-100 py-1 px-4 text-gray-800 shadow-xl group-hover:visible">
 
-        <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+        <router-link  :to="{ name: 'eastern'}" class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
           EASTERN 
-        </a>
+        </router-link>
 
-        <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
-           WESTER
-        </a>
+        <router-link  :to="{ name: 'western'}" class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+           WESTERN
+        </router-link>
 
-        <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+        <router-link  :to="{ name: 'northern'}" class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
             NORTHERN 
-        </a>
+        </router-link>
 
-        <a class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+        <router-link  :to="{ name: 'southern'}" class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
            SOUTHERN
-        </a>
+        </router-link>
+
+        <router-link  :to="{ name: 'kigali city'}" class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2">
+           KIGALI CITY
+        </router-link>
 
        
     </div>
