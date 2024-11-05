@@ -2,6 +2,7 @@ import { createWebHistory, createRouter } from 'vue-router'
 
 import HomeView from './views/HomeView.vue'
 import AboutView from './views/AboutView.vue'
+import loginForm from './views/loginform.vue'
 import KayonzaView from './views/Districts/KayonzaView.vue' 
 import RwamaganaView from './views/Districts/RwamaganaView.vue'
 import BugeseraView from './views/Districts/BugeseraView.vue'
@@ -19,7 +20,7 @@ import KigaliCityView from './views/Provinces/Kigali cityView.vue'
 const routes = [
   { path: '/', component: HomeView },
   { path: '/about', component: AboutView },
-  
+  { path:  '/login form', component: loginForm, name: "login"},
   { path: '/DISTRICTS/Kayonza', component: KayonzaView, name: "kayonza"},
   { path: '/DISTRICTS/Rwamagana', component: RwamaganaView, name: "rwamagana"},
   { path: '/DISTRICTS/Bugesera', component: BugeseraView, name: "bugesera"},

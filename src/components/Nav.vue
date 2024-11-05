@@ -11,7 +11,7 @@
 
 
             <div class="mb-28 w-full text-right flex item-center justify-end gap-12 px-12">
-                <p><a href="#Log in.asp">Log in</a></p>
+                <p><router-link :to="{ name: 'login'}">Log in</router-link></p>
                 <p><a href="#Create your account.asp">Create your account</a></p>
                 <p><a href="#Guide.asp">Guide</a></p>
                 <p><a href="#ENGLISH.asp">ENGLISH</a></p>
